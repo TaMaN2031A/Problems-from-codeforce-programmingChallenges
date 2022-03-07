@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1645061593 source:c:\users\lenovo\desktop\hackerrank excercises\printing sum\tram\main.c
+	<stdio.h>
+	<stdlib.h>
+

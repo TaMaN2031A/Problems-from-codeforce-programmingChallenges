@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1641631038 source:c:\users\lenovo\desktop\hackerrank excercises\printing sum\savetrial\main.c
+	<stdio.h>
+	<stdlib.h>
+
