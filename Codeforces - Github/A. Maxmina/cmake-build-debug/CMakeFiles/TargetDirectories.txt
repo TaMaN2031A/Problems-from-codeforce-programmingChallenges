@@ -1,0 +1,3 @@
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/A. Maxmina/cmake-build-debug/CMakeFiles/A__Maxmina.dir
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/A. Maxmina/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/A. Maxmina/cmake-build-debug/CMakeFiles/rebuild_cache.dir
