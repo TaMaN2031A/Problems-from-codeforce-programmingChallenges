@@ -1,0 +1,3 @@
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/A_Cowardly Rooks/cmake-build-debug/CMakeFiles/A_Cowardly_Rooks.dir
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/A_Cowardly Rooks/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/A_Cowardly Rooks/cmake-build-debug/CMakeFiles/rebuild_cache.dir
