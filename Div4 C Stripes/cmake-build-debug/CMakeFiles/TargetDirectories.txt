@@ -1,0 +1,3 @@
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/Div4 C Stripes/cmake-build-debug/CMakeFiles/Div4_C_Stripes.dir
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/Div4 C Stripes/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/Div4 C Stripes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
