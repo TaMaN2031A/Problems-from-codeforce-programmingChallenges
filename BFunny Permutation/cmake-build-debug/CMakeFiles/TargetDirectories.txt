@@ -1,0 +1,3 @@
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/BFunny Permutation/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/BFunny Permutation/cmake-build-debug/CMakeFiles/BFunny_Permutation.dir
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/BFunny Permutation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
