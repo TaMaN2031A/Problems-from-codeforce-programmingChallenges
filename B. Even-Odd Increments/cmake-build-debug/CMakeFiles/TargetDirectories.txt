@@ -1,0 +1,3 @@
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/B. Even-Odd Increments/cmake-build-debug/CMakeFiles/B__Even_Odd_Increments.dir
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/B. Even-Odd Increments/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/LeNoVo/CLionProjects/Codeforces - Github/B. Even-Odd Increments/cmake-build-debug/CMakeFiles/rebuild_cache.dir
