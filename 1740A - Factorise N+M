@@ -1,0 +1,20 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+
+using namespace std;
+void solve()
+{
+    play n;
+    cin >> n;
+    cout << n << endl;
+
+}
+int main() {
+    play t;
+    cin >> t;
+    while(t--)
+        solve();
+    return 0;
+}
