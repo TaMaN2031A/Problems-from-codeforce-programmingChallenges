@@ -1,0 +1,29 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+
+using namespace std;
+void solve()
+{
+    string x, y;
+    cin >> x;
+    if(x.size() == 1)
+        cout << x.at(0)-'1' << endl;
+    else {
+        if (x.at(0) == '1')
+            y = x.substr(1, x.size());
+        else {
+            x.at(0) = x.at(0) - 1;
+            y = x;
+        }
+        cout << stol(y) << endl;
+    }
+}
+int main() {
+    play t;
+    cin >> t;
+    while(t--)
+        solve();
+    return 0;
+}
