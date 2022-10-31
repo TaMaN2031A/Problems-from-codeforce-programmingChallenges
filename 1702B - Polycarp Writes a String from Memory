@@ -1,0 +1,31 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+
+using namespace std;
+void solve()
+{
+    string x;
+    cin >> x;
+    int j = 0, c = 0;
+    while(j < x.size())
+    {
+
+        set<char> s;
+        while(s.size() <= 3)
+        {
+            s.emplace(x[j++]);
+        }
+        j--;
+        c++;
+    }
+    cout << c << endl;
+}
+int main() {
+    play t;
+    cin >> t;
+    while(t--)
+        solve();
+    return 0;
+}
