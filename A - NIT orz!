@@ -1,0 +1,25 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+ 
+using namespace std;
+void solve()
+{
+    unsigned play n, z, a, maxi = 0;
+    cin >> n >> z;
+    for(int i = 0; i < n; i++)
+    {
+        cin >> a;
+        if((a|z)>maxi)
+            maxi = a|z;
+    }
+    cout << maxi << endl;
+}
+int main() {
+    play t;
+    cin >> t;
+    while(t--)
+        solve();
+    return 0;
+}
