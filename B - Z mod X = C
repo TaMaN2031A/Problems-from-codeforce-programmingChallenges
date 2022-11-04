@@ -1,0 +1,21 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+ 
+using namespace std;
+ 
+void solve()
+{
+    play n, m, z;
+    cin >> n >> m >> z;
+    cout << n+m+z << " " << z+m << " " << z << endl;
+}
+ 
+int main() {
+    play t;
+    cin >> t;
+    while(t--)
+        solve();
+    return 0;
+}
