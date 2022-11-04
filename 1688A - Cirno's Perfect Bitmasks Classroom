@@ -1,0 +1,33 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+ 
+using namespace std;
+ 
+void solve()
+{
+    play n;
+    cin >> n;
+    if(n&1)
+    {
+        if(n==1)
+            cout << 3 << endl;
+        else
+            cout << 1 << endl;
+    }
+    else
+    {
+        play x = n&~(n-1);
+        if((n^x) == 0) x++;
+        cout << x << endl;
+    }
+}
+ 
+int main() {
+    play t;
+    cin >> t;
+    while(t--)
+        solve();
+    return 0;
+}
