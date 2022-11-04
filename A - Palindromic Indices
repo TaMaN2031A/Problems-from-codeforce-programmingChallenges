@@ -1,0 +1,27 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+ 
+using namespace std;
+ 
+void solve()
+{
+    string x;
+    int n, c = 1;
+    cin >> n >> x;
+    int pointer = n/2-1;
+    while(x[pointer--]==x[n/2]) c++;
+    pointer = n/2+1;
+    while(x[pointer++]==x[n/2]) c++;
+    cout << c << endl;
+ 
+}
+ 
+int main() {
+    play t;
+    cin >> t;
+    while(t--)
+        solve();
+    return 0;
+}
