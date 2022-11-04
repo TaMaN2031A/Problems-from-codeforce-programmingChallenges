@@ -1,0 +1,21 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+ 
+using namespace std;
+ 
+void solve()
+{
+    int n, m, q;
+    cin >> n >> m >> q;
+    cout << (int)(4*(sqrt(n*m/q)+sqrt(n*q/m)+sqrt(m*q/n))) << endl;
+}
+ 
+int main() {
+//    play t;
+//    cin >> t;
+//    while(t--)
+        solve();
+    return 0;
+}
