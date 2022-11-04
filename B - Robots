@@ -1,0 +1,65 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+ 
+using namespace std;
+char arr[5][5];
+void solve()
+{
+    play n, m;
+    cin >> n >> m;
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < m; j++)
+        {
+            cin >> arr[i][j];
+        }
+    }
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < m; j++)
+        {
+            if(arr[i][j] == 'R')
+            {
+                int x = i, y = j;
+                if(x==0 && y==0)
+                {
+                    cout << "YES" << endl;
+                    return;
+                }
+                else
+                {
+                    bool bazet = false;
+                    for(int k = 0; k < n; k++)
+                    {
+                        for(int l = 0; l < m; l++)
+                        {
+                            if(arr[k][l] == 'R') // 3aref, kml
+                            {
+                                if(k<x || l<y)
+                                {
+                                    bazet = true;
+                                }
+                            }
+                        }
+                    }
+                    if(!bazet)
+                    {
+                        cout << "YES" << endl;
+                        return;
+                    }
+                }
+            }
+        }
+    }
+    cout << "NO" << endl;
+}
+ 
+int main() {
+    play t;
+    cin >> t;
+    while(t--)
+        solve();
+    return 0;
+}
