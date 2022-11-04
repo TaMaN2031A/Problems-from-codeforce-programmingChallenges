@@ -1,0 +1,25 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+ 
+using namespace std;
+ 
+void solve()
+{
+    int n;
+    cin >> n;
+    if(n&1 || n == 2)
+        cout << "NO" << endl;
+    else
+        cout << "YES" << endl;
+ 
+}
+ 
+int main() {
+//    play t;
+//    cin >> t;
+//    while(t--)
+        solve();
+    return 0;
+}
