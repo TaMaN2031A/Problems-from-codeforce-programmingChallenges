@@ -1,0 +1,33 @@
+#include <vector>
+#include <algorithm>
+#include <iostream>
+#include <string>
+#include <map>
+#include <math.h>
+using namespace std;
+ 
+int main()
+{
+    int t;
+    cin>>t;
+while(t--)
+{
+int arr[50], b[50];
+long long n, cr=0;
+cin>>n;
+for(int i = 0; i < n;i++)
+{
+    cin>>arr[i];
+}
+for(int i = 0; i < n;i++)
+{
+    cin>>b[i];
+}
+ 
+for(int i = 1; i<n; i++)
+{
+    cr+=min(abs(arr[i]-arr[i-1])+abs(b[i]-b[i-1]),abs(arr[i]-b[i-1])+abs(b[i]-arr[i-1])) ;
+}
+cout<<cr<<endl;
+}
+}
