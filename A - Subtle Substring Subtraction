@@ -1,0 +1,33 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+ 
+using namespace std;
+ 
+void solve()
+{
+    string x;
+    cin >> x;
+    play c = 0;
+    for(char a: x) {
+        c += a - 'a' + 1;
+    }
+    if(x.size()&1) {
+        int one = x[0] - 'a' + 1, two = x[x.size() - 1] - 'a' + 1;
+        if (x.size() != 1)
+            cout << "Alice" << " " << max(c - 2 * one, c - 2 * two);
+        else
+            cout << "Bob" << " " << max(one, two);
+        cout << endl;
+    } else
+        cout << "Alice" << " " << c << endl;
+}
+ 
+int main() {
+    play t;
+    cin >> t;
+    while(t--)
+        solve();
+    return 0;
+}
