@@ -1,0 +1,37 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+ 
+using namespace std;
+ 
+void solve()
+{
+    string x;
+    cin >> x;
+    play c = 0;
+    for(char a :x)
+    {
+        if(a=='A')
+            c++;
+        else
+            c--;
+        if(c<0) {
+            cout << "NO" << endl;
+            return;
+        }
+    }
+    if(x.back()=='B')
+        cout << "YES";
+    else
+        cout << "NO";
+    cout << endl;
+}
+ 
+int main() {
+    play t;
+    cin >> t;
+    while(t--)
+        solve();
+    return 0;
+}
