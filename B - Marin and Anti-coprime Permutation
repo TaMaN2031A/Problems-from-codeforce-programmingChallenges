@@ -1,0 +1,30 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+ 
+using namespace std;
+void solve()
+{
+    int n;
+    cin >> n;
+    if(n&1)
+        cout << 0 << endl;
+    else {
+        play ans = 1, mod = 998244353;
+        for (int i = 1; i <= n/2; i++)
+        {
+            ans *= 1LL * i * i % mod;
+            ans %= mod;
+        }
+        cout << ans << endl;
+    }
+}
+ 
+int main() {
+    play t;
+    cin >> t;
+    while(t--)
+        solve();
+    return 0;
+}
