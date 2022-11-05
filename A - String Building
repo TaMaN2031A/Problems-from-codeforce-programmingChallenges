@@ -1,0 +1,40 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#define fire cout
+#define play long long
+ 
+using namespace std;
+ 
+void solve()
+{
+    string x;
+    cin >> x;
+    for(int i = 0; i < x.size(); i++)
+    {
+        if(i==0)
+        {
+            if(x[i] != x[i+1])
+            {
+                cout << "NO" << endl;
+                return;
+            }
+        }
+        else
+        {
+            if((x[i] != x[i+1]) && (x[i] != x[i-1]))
+            {
+                cout << "NO" << endl;
+                return;
+            }
+        }
+    }
+    cout << "YES" << endl;
+}
+ 
+int main() {
+    play t;
+    cin >> t;
+    while(t--)
+        solve();
+    return 0;
+}
